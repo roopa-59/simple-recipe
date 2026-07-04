@@ -29,3 +29,12 @@ img
   border-radius: 0.5rem;
 }
 
+h1,h2{
+  color: hsl(24, 5%, 18%);
+}
+
+p,li
+{
+  color: hsl(30, 10%, 34%);
+}
+
