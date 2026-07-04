@@ -20,4 +20,12 @@ body{
   flex-direction: column;
   max-width: 375px;
   width: 90%;
+  padding: 1.5rem;
 }
+
+img
+{
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
