@@ -29,12 +29,42 @@ img
   border-radius: 0.5rem;
 }
 
-h1,h2{
+h1{
   color: hsl(24, 5%, 18%);
+  margin-top: 0.8rem;
 }
 
 p,li
 {
   color: hsl(30, 10%, 34%);
+  margin-top: 0.8rem;
+}
+.pre
+{
+  background-color: hsl(330, 100%, 98%);
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  margin-top: 0.8rem;
 }
 
+.pre h4{
+  color: hsl(332, 51%, 32%);
+}
+li
+{
+  list-style-position: inside;
+}
+
+h2{
+  color: hsl(14, 45%, 36%);
+  margin-top: 0.8rem;
+}
+
+hr{
+  margin-top: 0.8rem;
+  opacity: 0.5;
+}
+
+ol li::marker{
+  color: hsl(14, 45%, 36%);
+}
