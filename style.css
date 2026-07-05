@@ -68,3 +68,27 @@ hr{
 ol li::marker{
   color: hsl(14, 45%, 36%);
 }
+
+table
+{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td:nth-child(1)
+{
+  color: hsl(30, 10%, 34%);
+  padding-left: 2rem;
+}
+
+td:nth-child(2)
+{
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+td
+{
+  padding: 0.8rem;
+  border-bottom:1px solid hsl(30,18%,87%);
+}
